@@ -1,0 +1,40 @@
+{
+  "name": "cryptr-encoded",
+  "version": "1.0.0",
+  "description": "Encodes cryptr output to be url safe",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitei-io/nodejs-cryptr-encoded.git"
+  },
+  "keywords": [
+    "cypher",
+    "encyrption",
+    "decryption",
+    "encoded",
+    "crypter",
+    "url",
+    "safe",
+    "crypto",
+    "cipher",
+    "aes-256",
+    "aes256",
+    "aes-256-gcm"
+  ],
+  "author": "kaitei-io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaitei-io/nodejs-cryptr-encoded/issues"
+  },
+  "homepage": "https://github.com/kaitei-io/nodejs-cryptr-encoded#readme",
+  "dependencies": {
+    "cryptr": "^6.2.0"
+  }
+}
